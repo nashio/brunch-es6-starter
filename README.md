@@ -9,17 +9,12 @@
 + jsx ready
 
 
-### Install
+### Starting a new project
 
 
 brunch new `http://github.com/nashio/brunch-es6-starter` shiny-project
 
 cd shiny-project
-
-npm install --save brunch bower babel javascript-brunch sass-brunch babel-brunch auto-reload-brunch
-
-### Starting
-
 
 #### Develop
 brunch watch --server
