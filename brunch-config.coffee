@@ -31,5 +31,5 @@ module.exports = config:
       enabled:
         css: on
         js: on
-        assets: off
+        assets: on
       port: [3030, 4040]
