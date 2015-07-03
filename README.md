@@ -11,6 +11,6 @@
 ### Usage
 
 
-brunch new `http://github.com/nashio/brunch-starter` new-project-dir
+brunch new `http://github.com/nashio/brunch-es6-starter` new-project-dir
 
 npm install --save brunch bower babel javascript-brunch sass-brunch babel-brunch auto-reload-brunch
