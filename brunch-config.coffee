@@ -8,8 +8,8 @@ module.exports = config:
   files:
     javascripts:
       joinTo:
-        'javascripts/app.js': /^app/
-        'javascripts/vendor.js': /^(?!app)/
+        'js/app.js': /^app/
+        'js/vendor.js': /^(?!app)/
     stylesheets:
         joinTo: 'css/app.css'
 
@@ -32,4 +32,4 @@ module.exports = config:
         css: on
         js: on
         assets: off
-      port: [1234, 2345, 3456]
+      port: [3030, 4040]

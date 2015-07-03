@@ -1,7 +1,8 @@
-## brunch starter based on the brunch-0-starter
+## brunch starter based on the 0-starter
 + Sass
 + Auto Reload
 + ES6 with Babel
+    - modules (require)
 + Bower package manager
     - lodash
     - jquery
@@ -11,7 +12,9 @@
 ### Install
 
 
-brunch new `http://github.com/nashio/brunch-es6-starter` new-project-dir
+brunch new `http://github.com/nashio/brunch-es6-starter` shiny-project
+
+cd shiny-project
 
 npm install --save brunch bower babel javascript-brunch sass-brunch babel-brunch auto-reload-brunch
 
@@ -20,5 +23,6 @@ npm install --save brunch bower babel javascript-brunch sass-brunch babel-brunch
 
 #### Develop
 brunch watch --server
+
 #### Production
 brunch build --production

@@ -1,15 +1,15 @@
-$default-bg: white;
+$default-bg: lightgray;
 $default-text: black;
 
 body {
-  font-family: Georgia, serif;
+  font-family: helvetica, arial;
   font-size: 16px;
   background: $default-bg;
   color: $default-text;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.1em;
   margin: 0.5em 0 1em;
 
   & > small {
