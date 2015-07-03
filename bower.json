@@ -1,5 +1,5 @@
 {
-  "name": "project-name",
+  "name": "shiny-project",
   "dependencies": {},
   "devDependencies": {
     "jquery": "~2.1.4",
