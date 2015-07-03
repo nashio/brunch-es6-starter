@@ -1,4 +1,4 @@
-# brunch starter based on the brunch-0-starter
+## brunch starter based on the brunch-0-starter
 + Sass
 + Auto Reload
 + ES6 with Babel
@@ -6,5 +6,10 @@
     - lodash
     - jquery
 + jsx ready
--brunch new http://github.com/nashio/brunch-starter new-project-dir
+
+
+### Usage
+
+
+brunch new http://github.com/nashio/brunch-starter new-project-dir
 npm install --save brunch bower babel javascript-brunch sass-brunch babel-brunch auto-reload-brunch
