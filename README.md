@@ -7,6 +7,7 @@
     - lodash
     - jquery
 + jsx ready
++ Karma + Jasmine test setup
 
 
 ### Starting a new project
@@ -21,3 +22,12 @@ brunch watch --server
 
 #### Production
 brunch build --production
+
+
+#### Tests
+
+Be sure to install the karma command line utility
+
+npm install karma-cli -g
+
+karma start

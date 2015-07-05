@@ -10,6 +10,8 @@ module.exports = config:
       joinTo:
         'js/app.js': /^app/
         'js/vendor.js': /^(?!app)/
+        'test/js/test.js': /^test(\/|\\)(?!vendor)/
+        'test/js/vendor.js': /^test(\/|\\)(?=vendor)/
     stylesheets:
         joinTo: 'css/app.css'
 
