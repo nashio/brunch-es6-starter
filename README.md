@@ -1,4 +1,4 @@
-## brunch starter based on the 0-starter
+## brunch starter
 + Sass
 + Auto Reload
 + ES6 with Babel
