@@ -16,7 +16,7 @@ module.exports = config:
         joinTo: 'css/app.css'
 
   plugins:
-    babel:
+    ESbabel:
         whitelist: ['arrowFunctions']
         format:
             semicolons: false
